@@ -3,6 +3,7 @@ const db = require('./db');
 
 const Adoption = db.define('Adoption', {
   id: {
+    
     type: DataTypes.INTEGER,
     primaryKey: true,
     autoIncrement: true
