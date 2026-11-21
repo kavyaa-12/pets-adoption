@@ -2,6 +2,7 @@
 const { DataTypes } = require('sequelize');
 const db = require('./db');
 
+
 const Food = db.define('Food', {
     photo: {
         type: DataTypes.STRING,
