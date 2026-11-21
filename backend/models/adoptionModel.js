@@ -19,6 +19,8 @@ const Adoption = db.define('Adoption', {
       isEmail: true
     }
   },
+
+  
   phone: {
     type: DataTypes.STRING,
     allowNull: false
